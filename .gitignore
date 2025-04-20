@@ -1,0 +1,51 @@
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+credentials.auto.tfvars
+
+
+# Ansible
+*.retry
+*.log
+inventory.ini
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# VS Code / Codium
+.vscode/
+.history/
+
+# Secrets / keys
+*.pem
+*.key
+*.env
+.env.*
+
+# Git
+*.orig
